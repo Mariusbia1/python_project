@@ -1,0 +1,46 @@
+# Environnements Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel Conda
+.conda/
+.conda/*
+*.egg-info/
+
+# Environnement virtuel standard
+venv/
+env/
+
+# Fichiers de cache et temporaires
+*.cache
+*.log
+*.pid
+*.swp
+*.swo
+*.swn
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers statiques sensibles (optionnel)
+# static/images/moi__.jpeg  # Décommentez si vous ne voulez pas inclure votre photo personnelle
+# static/images/*  # Décommentez pour ignorer toutes les images
+
+# Fichiers de configuration sensible (optionnel)
+*.env
+*.secret
+*.key
+
+# Fichiers de build ou de distribution
+dist/
+build/
+*.egg
+*.egg-info/
+
+# Fichiers spécifiques à l'IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
