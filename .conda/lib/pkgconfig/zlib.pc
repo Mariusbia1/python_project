@@ -1,0 +1,13 @@
+prefix=/home/Marius_GBK/Bureau/projet_python/.conda
+exec_prefix=/home/Marius_GBK/Bureau/projet_python/.conda
+libdir=/home/Marius_GBK/Bureau/projet_python/.conda/lib
+sharedlibdir=/home/Marius_GBK/Bureau/projet_python/.conda/lib
+includedir=/home/Marius_GBK/Bureau/projet_python/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
